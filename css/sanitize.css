@@ -281,12 +281,7 @@ button {
  * Correct the inability to style buttons in iOS and Safari.
  */
 
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-}
+
 
 /**
  * 1. Change the inconsistent appearance in all browsers (opinionated).
@@ -362,9 +357,8 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 
-[type="search"] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
+::-webkit-search-results-decoration {
+  -webkit-appearance: none;
 }
 
 /**
@@ -508,12 +502,7 @@ input,
 label,
 select,
 summary,
-textarea,
-[tabindex] {
-  -ms-touch-action: manipulation; /* 1 */
-  touch-action: manipulation; /* 2 */
-}
-
+１textarea,
 /**
  * Add the correct display in IE 10-.
  */
