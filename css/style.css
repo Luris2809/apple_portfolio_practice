@@ -93,7 +93,7 @@ li{
   width: auto;
   height: 692px;
   position: relative;
-  left: -35%;
+  left: -37%;
   /* max-width: 100%; */
   margin: 0 auto;
   /* 画像を中央揃え */
@@ -181,6 +181,7 @@ li{
   pointer-events: none;
   white-space: nowrap;
 }
+/* Apple Watch */
 .watch-overlay,
 .header_trade_in_watch {
   position: relative;
@@ -197,12 +198,195 @@ li{
   width: auto;
   height: 692px;
   position: relative;
-  left: -35%;
+  left: -37%;
   /* max-width: 100%; */
   margin: 0 auto;
   /* 画像を中央揃え */
 }
 .Watch{
+  padding: 0px;
   font-size: 20px;
   font-weight: 100;
+  line-height: 12px;
+  padding-bottom: 12px;
 }
+
+.noto-sans-jp-400 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.watch_size{
+  font-size:20px;
+  padding: 0;
+}
+.watch-text1{
+  position: absolute;
+  top: 30%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  color: #1d1d1f;
+  font-size: 20px;
+  font-weight: 400;
+  text-shadow: 0 1px 4px #fff, 0 1px 2px #0001;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.watch-text1-btn{
+  padding: 10px 18px;
+  background-color: #0071e3;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  box-shadow:none;
+}
+.watch-text1-btn:hover {
+  background: #1087ff;
+}
+.watch-text2{
+  position: absolute;
+  top: 30%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  color: #1d1d1f;
+  font-size: 20px;
+  font-weight: 400;
+  text-shadow: 0 1px 4px #fff, 0 1px 2px #0001;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.watch-text2-btn{
+  padding: 10px 18px;
+  background-color: #fff;
+  color: #0071e3;
+  border: solid 1px #0071e3;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  box-shadow:none;
+}
+.watch-text2-btn:hover {
+  background: #1087ff;
+}
+
+/* MacBook Air */
+
+.mac_text1{
+  position: absolute;
+  top: 32%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  color: #1d1d1f;
+  font-size: 20px;
+  font-weight: 400;
+  text-shadow: 0 1px 4px #fff, 0 1px 2px #0001;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.mac_text1-btn{
+  padding: 10px 18px;
+  background-color: #0071e3;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  box-shadow:none;
+}
+.mac_text1-btn:hover {
+  background: #1087ff;
+}
+.mac_text2{
+  position: absolute;
+  top: 32%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  color: #1d1d1f;
+  font-size: 20px;
+  font-weight: 400;
+  text-shadow: 0 1px 4px #fff, 0 1px 2px #0001;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.mac_text2-btn{
+  padding: 10px 18px;
+  background-color: #fff;
+  color: #0071e3;
+  border: solid 1px #0071e3;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  box-shadow:none;
+}
+.mac_text2-btn:hover {
+  background: #1087ff;
+}
+.mac_text3{
+  position: absolute;
+  top: 87%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #636368;
+  font-size: 20px;
+  font-weight: 400;
+  text-shadow: 0 1px 4px #fff, 0 1px 2px #0001;
+  pointer-events: none;
+  white-space: nowrap;
+  background: linear-gradient(90deg, #1100ff, #ff2200);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; /* 一部ブラウザ用 */
+  color: transparent;
+}
+.mac_text4{
+  position: absolute;
+  top: 92%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #75757c;
+  font-size: 13px;
+  font-weight: 400;
+  text-shadow: 0 1px 4px #fff, 0 1px 2px #0001;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.macbookair{
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 20px;
+  padding-bottom: 12px;
+}
+.macair_text {
+  position: absolute;
+  top: 11%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #1d1d1f;
+  font-size: 36px;
+  font-weight: 700;
+  text-shadow: 0 2px 8px #fff, 0 1px 2px #0001;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.mac_air_size{
+  font-size:25px;
+  padding: 0;
+}
+.mac_air_center{
+  position: absolute;
+  top: 67%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* iPad Pro */
