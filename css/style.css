@@ -390,3 +390,26 @@ li{
   transform: translate(-50%, -50%);
 }
 /* iPad Pro */
+.main_footer_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2列 */
+  gap: 10px; /* 列と行の間のスペース */
+  
+}
+/* 画像をレスポンシブに */
+.img,
+.six_pictures img {
+  height: 692px;
+  position: relative;
+  left: -37%;
+  /* max-width: 100%; */
+  margin: 0 auto;
+  /* 画像を中央揃え */
+}
+.pictures-figure-overlay,
+.six_pictures {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
