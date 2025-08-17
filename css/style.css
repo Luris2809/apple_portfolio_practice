@@ -93,9 +93,10 @@ li{
   width: auto;
   height: 692px;
   position: relative;
-  left: -37%;
+  left: -30%;
   /* max-width: 100%; */
-  margin: 0 auto;
+  margin: 0;
+  padding-bottom: 8px;
   /* 画像を中央揃え */
 }
 .text1{
@@ -191,14 +192,14 @@ li{
   overflow: hidden;
   display: block;
   padding: 0;
-  margin: 8px;
+  margin-bottom: 8px;
 }
 .watch-overlay img,
 .header_trade_in_watch img {
   width: auto;
   height: 692px;
   position: relative;
-  left: -37%;
+  left: -30%;
   /* max-width: 100%; */
   margin: 0 auto;
   /* 画像を中央揃え */
@@ -389,27 +390,35 @@ li{
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* iPad Pro */
+
 .main_footer_grid {
   display: grid;
   grid-template-columns: 1fr 1fr; /* 2列 */
-  gap: 10px; /* 列と行の間のスペース */
-  
+  justify-items: stretch;
+  grid-gap: 8px; /* グリッド間の隙間 */
+}
+.main_footer_grid div{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 /* 画像をレスポンシブに */
-.img,
+
 .six_pictures img {
-  height: 692px;
-  position: relative;
-  left: -37%;
-  /* max-width: 100%; */
-  margin: 0 auto;
-  /* 画像を中央揃え */
+  height: 580px;
+  width: 100%;
+  padding: 4px;
+
+
+  
 }
 .pictures-figure-overlay,
 .six_pictures {
   position: relative;
-  width: 100%;
-  margin: 0 auto;
+  margin: 0;
   overflow: hidden;
 }
