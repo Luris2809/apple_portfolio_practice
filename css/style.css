@@ -413,3 +413,89 @@ li{
   margin: 0 auto;
   overflow: hidden;
 }
+/* `.grid-container` クラスを新しく追加し、グリッドの親要素として設定 */
+.grid-container {
+    display: grid;
+    /* 2列を定義: それぞれの列が利用可能なスペースを均等に分割します */
+    grid-template-columns: 1fr 1fr;
+    /* 3行を定義: それぞれの行がコンテンツに基づいて高さを自動調整します */
+    grid-template-rows: auto auto auto; /* または `repeat(3, auto)` */
+    max-width: 1000px; /* グリッドコンテナの最大幅（適宜調整してください） */
+    margin: 20px auto; /* 中央に配置し、上下に余白を追加 */
+}
+
+/* 既存の .main_footer_grid クラスはグリッドアイテムとして機能します */
+.main_footer_grid {
+    /* グリッドアイテムとして配置されるため、必要に応じて調整します */
+    /* width や height などはグリッドレイアウトによって制御されるため、
+       明示的に設定しない方が良い場合があります */
+    /* 例: 背景色やパディングなどを設定する */
+    background-color: #f5f5f7; /* Appleサイトのような背景色 */
+    overflow: hidden; /* コンテンツがはみ出さないように */
+    display: flex; /*figcaptionの配置を調整するためにflexboxも使える*/
+    flex-direction: column;
+    justify-content: flex-end; /* コンテンツを下揃えにする場合 */
+    align-items: center;
+    position: relative; /* 子要素のabsolute配置の基準 */
+    height: 692px; /* 元の画像高さに合わせる */
+}
+
+/* 各グリッドアイテム内の画像スタイルを調整 */
+.main_footer_grid img {
+    position: absolute; /* 他のfigcaptionの上に配置 */
+    top: 0;
+    left: 0;
+    z-index: 0; /* 背景として機能させるため一番下に */
+}
+
+/* figcaptionなどのテキストオーバーレイのスタイルも調整が必要かもしれません */
+/* これらは画像の上に表示されるようにz-indexなどを設定すると良いでしょう */
+.main_footer_grid figcaption {
+    z-index: 1; /* 画像より前面に */
+    /* 必要に応じて位置調整 */
+}
+
+/* 他の .figure-overlay や .overlay-text などのスタイルも
+   .main_footer_grid 内での表示に合わせて調整が必要になります */
+/* 例: */
+.main_footer_grid .overlay-text {
+    transform: translateX(-50%);
+    color: black; /* テキストの色 */
+    font-size: 2em;
+    text-align: center;
+}
+
+.main_footer_grid .overlay-text2 {
+    position: absolute;
+    top: 100px; /* 適宜調整 */
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.main_footer_grid .text1,
+.main_footer_grid .text2,
+.main_footer_grid .text3,
+.main_footer_grid .text4 {
+    position: absolute;
+    /* 各ボタンやテキストの位置を調整 */
+    /* 例えば、下部に配置するなら */
+    bottom: 20px;
+    /* その他の位置調整 */
+}
+
+.main_footer_grid .text1 {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 80px; /* 例 */
+}
+
+.main_footer_grid .text2 {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px; /* 例 */
+}
+
+/* 必要に応じて個別のfigcaptionの位置を調整してください */
