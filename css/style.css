@@ -4,49 +4,58 @@ body {
   padding: 0;
   max-width: 100%;
 }
-li{
+
+li {
   list-style: none;
 }
-a{
+
+a {
   border: none;
   text-decoration: none;
   color: inherit;
 }
-header nav ul{
-  display:flex;
-  width:100%;
-  height:50px;
-  justify-content:center;
-  align-items: center;
-  font-size:12px;
+
+header nav ul {
+  display: flex;
   width: 100%;
-  max-width:1024px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  width: 100%;
+  max-width: 1024px;
   height: 44px;
   margin: 0 auto;
 
 }
-header{
-    background: #F5F5F7CC;
+
+header {
+  background: #F5F5F7CC;
 
 }
-li{
-  padding:8px;
+
+li {
+  padding: 8px;
   margin: 8px;
 }
-.header_trade_in{
+
+.header_trade_in {
   text-align: center;
 }
-.header_trade_in a{
+
+.header_trade_in a {
   color: #0071e3;
 }
-.header_trade_in a:hover{
+
+.header_trade_in a:hover {
   text-decoration: underline;
 }
-.header_bottom ul{
+
+.header_bottom ul {
   max-height: 67.17px;
   height: 100%;
   max-width: auto;
-  background:#f5f5f7;
+  background: #f5f5f7;
 }
 
 /* オーバーレイ用ラッパー */
@@ -74,7 +83,8 @@ li{
   pointer-events: none;
   white-space: nowrap;
 }
-.overlay-text2{
+
+.overlay-text2 {
   position: absolute;
   top: 20%;
   left: 50%;
@@ -99,7 +109,8 @@ li{
   padding-bottom: 8px;
   /* 画像を中央揃え */
 }
-.text1{
+
+.text1 {
   position: absolute;
   top: 27%;
   left: 47%;
@@ -111,7 +122,8 @@ li{
   pointer-events: none;
   white-space: nowrap;
 }
-.text1-btn{
+
+.text1-btn {
   padding: 10px 18px;
   background-color: #0071e3;
   color: #fff;
@@ -121,12 +133,14 @@ li{
   font-weight: 300;
   cursor: pointer;
   transition: background 0.2s, color 0.2s;
-  box-shadow:none;
+  box-shadow: none;
 }
+
 .text1-btn:hover {
   background: #1087ff;
 }
-.text2{
+
+.text2 {
   position: absolute;
   top: 27%;
   left: 53%;
@@ -138,7 +152,8 @@ li{
   pointer-events: none;
   white-space: nowrap;
 }
-.text2-btn{
+
+.text2-btn {
   padding: 10px 18px;
   background-color: #fff;
   color: #0071e3;
@@ -148,12 +163,14 @@ li{
   font-weight: 300;
   cursor: pointer;
   transition: background 0.2s, color 0.2s;
-  box-shadow:none;
+  box-shadow: none;
 }
+
 .text2-btn:hover {
   background: #1087ff;
 }
-.text3{
+
+.text3 {
   position: absolute;
   top: 35%;
   left: 50%;
@@ -167,10 +184,12 @@ li{
   background: linear-gradient(90deg, #1100ff, #ff2200);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text; /* 一部ブラウザ用 */
+  background-clip: text;
+  /* 一部ブラウザ用 */
   color: transparent;
 }
-.text4{
+
+.text4 {
   position: absolute;
   top: 40%;
   left: 50%;
@@ -182,6 +201,7 @@ li{
   pointer-events: none;
   white-space: nowrap;
 }
+
 /* Apple Watch */
 .watch-overlay,
 .header_trade_in_watch {
@@ -194,6 +214,7 @@ li{
   padding: 0;
   margin-bottom: 8px;
 }
+
 .watch-overlay img,
 .header_trade_in_watch img {
   width: auto;
@@ -204,7 +225,8 @@ li{
   margin: 0 auto;
   /* 画像を中央揃え */
 }
-.Watch{
+
+.Watch {
   padding: 0px;
   font-size: 20px;
   font-weight: 100;
@@ -218,11 +240,13 @@ li{
   font-weight: 400;
   font-style: normal;
 }
-.watch_size{
-  font-size:20px;
+
+.watch_size {
+  font-size: 20px;
   padding: 0;
 }
-.watch-text1{
+
+.watch-text1 {
   position: absolute;
   top: 30%;
   left: 47%;
@@ -234,7 +258,8 @@ li{
   pointer-events: none;
   white-space: nowrap;
 }
-.watch-text1-btn{
+
+.watch-text1-btn {
   padding: 10px 18px;
   background-color: #0071e3;
   color: #fff;
@@ -244,12 +269,14 @@ li{
   font-weight: 300;
   cursor: pointer;
   transition: background 0.2s, color 0.2s;
-  box-shadow:none;
+  box-shadow: none;
 }
+
 .watch-text1-btn:hover {
   background: #1087ff;
 }
-.watch-text2{
+
+.watch-text2 {
   position: absolute;
   top: 30%;
   left: 53%;
@@ -261,7 +288,8 @@ li{
   pointer-events: none;
   white-space: nowrap;
 }
-.watch-text2-btn{
+
+.watch-text2-btn {
   padding: 10px 18px;
   background-color: #fff;
   color: #0071e3;
@@ -271,15 +299,16 @@ li{
   font-weight: 300;
   cursor: pointer;
   transition: background 0.2s, color 0.2s;
-  box-shadow:none;
+  box-shadow: none;
 }
+
 .watch-text2-btn:hover {
   background: #1087ff;
 }
 
 /* MacBook Air */
 
-.mac_text1{
+.mac_text1 {
   position: absolute;
   top: 32%;
   left: 47%;
@@ -291,7 +320,8 @@ li{
   pointer-events: none;
   white-space: nowrap;
 }
-.mac_text1-btn{
+
+.mac_text1-btn {
   padding: 10px 18px;
   background-color: #0071e3;
   color: #fff;
@@ -301,12 +331,14 @@ li{
   font-weight: 300;
   cursor: pointer;
   transition: background 0.2s, color 0.2s;
-  box-shadow:none;
+  box-shadow: none;
 }
+
 .mac_text1-btn:hover {
   background: #1087ff;
 }
-.mac_text2{
+
+.mac_text2 {
   position: absolute;
   top: 32%;
   left: 53%;
@@ -318,7 +350,8 @@ li{
   pointer-events: none;
   white-space: nowrap;
 }
-.mac_text2-btn{
+
+.mac_text2-btn {
   padding: 10px 18px;
   background-color: #fff;
   color: #0071e3;
@@ -328,12 +361,14 @@ li{
   font-weight: 300;
   cursor: pointer;
   transition: background 0.2s, color 0.2s;
-  box-shadow:none;
+  box-shadow: none;
 }
+
 .mac_text2-btn:hover {
   background: #1087ff;
 }
-.mac_text3{
+
+.mac_text3 {
   position: absolute;
   top: 87%;
   left: 50%;
@@ -347,10 +382,12 @@ li{
   background: linear-gradient(90deg, #1100ff, #ff2200);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text; /* 一部ブラウザ用 */
+  background-clip: text;
+  /* 一部ブラウザ用 */
   color: transparent;
 }
-.mac_text4{
+
+.mac_text4 {
   position: absolute;
   top: 92%;
   left: 50%;
@@ -362,12 +399,14 @@ li{
   pointer-events: none;
   white-space: nowrap;
 }
-.macbookair{
+
+.macbookair {
   font-size: 20px;
   font-weight: 100;
   line-height: 20px;
   padding-bottom: 12px;
 }
+
 .macair_text {
   position: absolute;
   top: 11%;
@@ -380,11 +419,13 @@ li{
   pointer-events: none;
   white-space: nowrap;
 }
-.mac_air_size{
-  font-size:25px;
+
+.mac_air_size {
+  font-size: 25px;
   padding: 0;
 }
-.mac_air_center{
+
+.mac_air_center {
   position: absolute;
   top: 67%;
   left: 50%;
@@ -393,11 +434,14 @@ li{
 
 .main_footer_grid {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* 2列 */
+  grid-template-columns: 1fr 1fr;
+  /* 2列 */
   justify-items: stretch;
-  grid-gap: 8px; /* グリッド間の隙間 */
+  grid-gap: 8px;
+  /* グリッド間の隙間 */
 }
-.main_footer_grid div{
+
+.main_footer_grid div {
   padding: 0;
   margin: 0;
   display: flex;
@@ -406,16 +450,14 @@ li{
   justify-content: center;
   height: 100%;
 }
+
 /* 画像をレスポンシブに */
 
 .six_pictures img {
   height: 580px;
   width: 100%;
-  padding: 4px;
-
-
-  
 }
+
 .pictures-figure-overlay,
 .six_pictures {
   position: relative;
