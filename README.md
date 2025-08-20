@@ -26,5 +26,7 @@ Apple公式サイト（日本版）のトップページをHTML/CSSで模写し�
 - アクセシビリティ対応の強化
 
 ## 🔗 公開ページ
+https://luris2809.github.io/apple_portfolio_practice/
+
 
 
